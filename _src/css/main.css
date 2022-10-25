@@ -1,0 +1,40 @@
+/*Body*/
+
+body {
+    background-color: #AB8673;
+}
+
+/*Header*/
+
+.nav_header, .footer {
+    background-color: #643D36;
+}
+.form-control{
+    border: 1px solid #57280A;
+}
+.text_white {
+    color: antiquewhite;
+}
+.text_brown {
+    color: #643D36;
+}
+.dropdown-menu {
+    background-color: antiquewhite;
+}
+.nav_search{
+    background-color: antiquewhite;
+}
+
+/*Footer*/
+
+.footer {
+    color: antiquewhite;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+
+}
+.contact:hover{
+    color: black;
+}

@@ -16,18 +16,18 @@ require_once ('_config/database.php');
         
     <!-- Header -->
     <header>
-        <div class="header_container">
-            <h1>Mon portfolio</h1>
-            <nav></nav>
-        </div>
+        <?php require_once ('_src/php/navbar.php') ?>
     </header>
     
+    <main>
+
+    </main>
     
     
-    
-    
-    
-    
+    <footer class="footer">
+        <?php require_once ('_src/php/footer.php') ?>
+    </footer>
+
         <!-- Script Bootstrap -->
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
     </body>
