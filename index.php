@@ -20,7 +20,7 @@ require_once ('_config/database.php');
     </header>
     
     <main>
-
+        <?php require_once ('_src/php/about.php'); ?>
     </main>
     
     
